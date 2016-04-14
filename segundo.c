@@ -2,7 +2,7 @@
 
 int main()
 {
-    printf("\nbom dia, ola mundo!!\n");
+    printf("Meu segundo programa");
     
     return 0;
 }
