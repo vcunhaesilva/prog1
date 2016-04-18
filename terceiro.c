@@ -3,12 +3,16 @@ int main()
 {
     int num1, num2;
     int soma;
+    printf("primeiro numero: "); 
+    scanf("%d",&num1);
+    printf("segundo numero: ");
+    scanf("%d",&num2);
+        
+    soma = num1 + num2;
     
-    num1 = 9;
-    num2 = 10;
-    
-    soma= num1 + num2;
-    printf("\nsoma = %d\n\n", soma);
+    printf("\n%d\n\n",soma);
+  
+   
     
     return 0;
 }
