@@ -7,14 +7,14 @@ int main()
      printf ("\nDigite um numero:");
      scanf ("%d", &n1); 
       
-     printf ("\nDigite um numero:");
+     printf ("\neste número é:\n");
      n2 = 2 ;
      
     if(n1%n2 == 0){
-    printf ("par");
+    printf ("\npar\n\n");
     }
      else{
      
-    printf ("impar");
+    printf ("\nimpar\n\n");
      } 
      }
